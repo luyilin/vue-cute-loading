@@ -10,6 +10,10 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "loading",
+    "vue-loading"
+  ],
   "scripts": {
     "prepublishOnly": "npm test && npm run build",
     "lint": "eslint . --ext .js --ext .vue",

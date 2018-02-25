@@ -4,6 +4,8 @@
 
 My favorite loading component for Vue.js.
 
+[DEMO](https://vue-cute-loading.netlify.com/)
+
 ## Install
 
 ```bash
@@ -16,15 +18,15 @@ CDN: [UNPKG](https://unpkg.com/vue-cute-loading/) | [jsDelivr](https://cdn.jsdel
 
 ```vue
 <template>
-  <v-loading></v-loading>
+  <loading></loading>
 </template>
 
 <script>
-import VLoading from 'vue-cute-loading'
+import Loading from 'vue-cute-loading'
 
 export default {
   components: {
-    VLoading
+    Loading
   }
 }
 </script>

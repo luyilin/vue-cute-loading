@@ -1,7 +1,7 @@
-import VLoading from './loading.vue'
+import Loading from './loading.vue'
 
-export default VLoading
+export default Loading
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.component(VLoading.name, VLoading)
+  window.Vue.component(Loading.name, Loading)
 }

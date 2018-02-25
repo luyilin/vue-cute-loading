@@ -45,7 +45,7 @@
 
 <script>
   export default {
-    name: 'VLoading',
+    name: 'Loading',
 
     props: {
       color: {
